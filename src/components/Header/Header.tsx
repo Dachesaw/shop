@@ -4,8 +4,6 @@ import login from '../../assets/login.svg'
 import shop_basket from '../../assets/shop_basket.svg'
 import search from '../../assets/search.svg'
 
-let search2 = <img src={search}/>
-
 import "./Header.css"
 
 const Header = () => {

@@ -11,9 +11,6 @@ var _shop_basket = _interopRequireDefault(require("../../assets/shop_basket.svg"
 var _search = _interopRequireDefault(require("../../assets/search.svg"));
 require("./Header.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var search2 = /*#__PURE__*/React.createElement("img", {
-  src: _search.default
-});
 var Header = function Header() {
   return /*#__PURE__*/React.createElement("header", null, /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("button", {
     className: "burger_button"
