@@ -6,7 +6,7 @@ nav {
     /* border: solid 1px black; */
 }
 
-ul {
+nav ul {
     display: flex;
     gap: 2em;
 }
