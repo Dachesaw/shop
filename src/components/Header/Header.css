@@ -31,15 +31,7 @@ header ul li {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-header ul li form .search {
-  width: 642px;
-  height: 46px;
-  border-radius: 5px;
-  border: none;
-  padding-left: 15px;
-  background: rgb(244, 244, 244);
-}
-header ul li button {
+header ul li .burger_button {
   width: 10em;
   height: 46px;
   border-radius: 5px;
@@ -61,6 +53,29 @@ header ul li button {
   line-height: 18.29px;
   text-align: left;
 }
+header ul li form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+header ul li form .search {
+  width: 642px;
+  height: 46px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 15px;
+  outline: none;
+  background: rgb(244, 244, 244);
+}
+header ul li form .button_search {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  border: none;
+  background: rgb(244, 244, 244);
+}
 header .ul_2 li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -68,4 +83,7 @@ header .ul_2 li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+header .ul_2 li a {
+  color: rgb(42, 31, 32);
 }

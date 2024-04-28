@@ -1,3 +1,4 @@
+@import '../scss/variables.scss';
 header {
     border: solid 1px wheat;
     display: flex;
@@ -14,18 +15,7 @@ header {
             display: flex;
             flex-direction: column;
 
-            form {
-                .search {
-                    width: 642px;
-                    height: 46px;
-                    border-radius: 5px;
-                    border: none;
-                    padding-left: 15px;
-                    background: rgba(244, 244, 244, 1);
-                }
-            }
-
-            button {
+            .burger_button {
                 width: 10em;
                 height: 46px;
                 border-radius: 5px;
@@ -40,12 +30,39 @@ header {
                 font-weight: 600;
                 line-height: 18.29px;
                 text-align: left;
-            
             }
+
+            form {
+                display: flex;
+                position: relative;
+
+                .search {
+                    width: 642px;
+                    height: 46px;
+                    border-radius: 5px;
+                    border: none;
+                    padding-left: 15px;
+                    outline: none;
+                    background: rgba(244, 244, 244, 1);
+                }
+                .button_search {
+                    position: absolute;
+                    right: 10px;
+                    top: 0;
+                    bottom: 0;
+                    border: none;
+                    background: rgba(244, 244, 244, 1);
+                }
+            }
+
+            
         }
     }
     .ul_2{
      li {
+        a {
+            color: $main_text_color;
+        }
         justify-content: center;
         align-items: center;
     }

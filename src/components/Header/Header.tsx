@@ -12,12 +12,11 @@ const Header = () => {
     return ( 
         <header>
             <ul>
-                <li><button><img src={burger}/>КАТАЛОГ</button></li>
+                <li><button className='burger_button'><img src={burger}/>КАТАЛОГ</button></li>
                 <li>
                     <form>
                         <input type="text"  name="text" className="search" placeholder='Поиск товара'/>
-                        <input type="submit" name='submit' className='submit'/><img className='search-img' src={search}/>
-                        <button><img src={search} alt="" /></button>
+                        <button type="submit" className='button_search'><img src={search} alt="" /></button>
                     </form>
                 </li>
             </ul>
