@@ -1,0 +1,35 @@
+@import '../scss/variables.scss';
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 7%;
+    /* border: solid 1px black; */
+    ul{
+        display: flex;
+        gap: 2em;
+        li {
+            a {
+                font-size: 14px;
+                font-weight: 400;
+                color: $main_text_color;
+            }
+            
+            a:hover {
+                color: rgb(187, 187, 187)
+            }
+        }
+    }
+    .ul-2 {
+        li  {
+            display: flex;
+            gap: 1em;
+
+            a {
+                font-weight: 500;
+            }
+        }
+    }
+}
+

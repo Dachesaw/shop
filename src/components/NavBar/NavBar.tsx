@@ -1,6 +1,6 @@
 import './NavBar.css'
-import loc from '../img/svg/loc.svg'
-import tel from '../img/svg/tel.svg'
+import loc from '../../assets/loc.svg'
+import tel from '../../assets/tel.svg'
 
 const NavBar = () => {
     return ( 

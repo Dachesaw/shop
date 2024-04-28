@@ -1,8 +1,8 @@
-import burger from '../img/svg/burger.svg'
-import favorite from '../img/svg/favorite.svg'
-import login from '../img/svg/login.svg'
-import shop_basket from '../img/svg/shop_basket.svg'
-import search from '../img/svg/search.svg'
+import burger from '../../assets/burger.svg'
+import favorite from '../../assets/favorite.svg'
+import login from '../../assets/login.svg'
+import shop_basket from '../../assets/shop_basket.svg'
+import search from '../../assets/search.svg'
 
 let search2 = <img src={search}/>
 
@@ -17,6 +17,7 @@ const Header = () => {
                     <form>
                         <input type="text"  name="text" className="search" placeholder='Поиск товара'/>
                         <input type="submit" name='submit' className='submit'/><img className='search-img' src={search}/>
+                        <button><img src={search} alt="" /></button>
                     </form>
                 </li>
             </ul>
