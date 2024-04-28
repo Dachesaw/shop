@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 7%;
+    /* border: solid 1px black; */
+}
+
+nav ul {
+    display: flex;
+    gap: 2em;
+}
+
+a {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(42, 31, 32, 1);
+}
+
+a:hover {
+    color: rgb(187, 187, 187)
+}
+
+.ul-2 li  {
+   
+    display: flex;
+    gap: 1em;
+}
+
+.ul-2 li a {
+    font-weight: 500;
+}
