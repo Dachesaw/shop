@@ -1,32 +1,37 @@
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    gap: 7%;
-    /* border: solid 1px black; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  gap: 7%;
+  /* border: solid 1px black; */
 }
-
 nav ul {
-    display: flex;
-    gap: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2em;
 }
-
-a {
-    font-size: 14px;
-    font-weight: 400;
-    color: rgba(42, 31, 32, 1);
+nav ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(42, 31, 32);
 }
-
-a:hover {
-    color: rgb(187, 187, 187)
+nav ul li a:hover {
+  color: rgb(187, 187, 187);
 }
-
-.ul-2 li  {
-   
-    display: flex;
-    gap: 1em;
+nav .ul-2 li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
 }
-
-.ul-2 li a {
-    font-weight: 500;
+nav .ul-2 li a {
+  font-weight: 500;
 }
