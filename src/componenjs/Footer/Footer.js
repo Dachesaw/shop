@@ -46,9 +46,9 @@ function Footer() {
     src: _email.default,
     alt: ""
   }), "example@mail.com")))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h3", null, "\u041F\u043E\u0434\u043F\u0438\u0441\u0430\u0442\u044C\u0441\u044F \u043D\u0430 \u043D\u043E\u0432\u043E\u0441\u0442\u0438 \u0438 \u0430\u043A\u0446\u0438\u0438"), /*#__PURE__*/React.createElement("form", {
-    action: ""
+    action: "email"
   }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("input", {
-    type: "text",
+    type: "email",
     placeholder: "E-mail"
   }), /*#__PURE__*/React.createElement("button", {
     id: "subscribe-button"

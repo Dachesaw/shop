@@ -71,9 +71,9 @@ export default function Footer() {
             </div>
             <div>
                 <h3>Подписаться на новости и акции</h3>
-                <form action="">
+                <form action="email">
                     <div>
-                        <input type="text" placeholder="E-mail" />
+                        <input type="email" placeholder="E-mail" />
                         <button id="subscribe-button">Подписаться</button>
                     </div>
                 </form>
