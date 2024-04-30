@@ -4,41 +4,37 @@ nav {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: end;
+      -ms-flex-pack: end;
+          justify-content: end;
   gap: 7%;
+  padding-top: 25px;
+  padding-bottom: 35px;
   padding-left: 5%;
   padding-right: 5%;
-  /* border: solid 1px black; */
 }
-
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 2em;
 }
-
 nav ul li a {
   font-size: 14px;
   font-weight: 400;
   color: rgb(42, 31, 32);
 }
-
 nav ul li a:hover {
   color: rgb(187, 187, 187);
 }
-
 nav .ul-2 li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 1em;
 }
-
 nav .ul-2 li a {
   font-weight: 500;
 }
