@@ -1,0 +1,8 @@
+@import '../scss/variables.scss';
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: $gray_background_color;
+
+}
