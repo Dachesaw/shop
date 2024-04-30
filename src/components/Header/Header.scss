@@ -1,4 +1,4 @@
-@import '../scss/variables.scss';
+@import "../scss/variables.scss";
 @import "../scss/mixin.scss";
 
 header {
@@ -22,7 +22,7 @@ header {
                 width: 10em;
                 height: 46px;
                 border-radius: 5px;
-                background: rgba(251, 15, 64, 1);
+                background: $accent-color;
                 color: white;
                 border: none;
                 display: flex;
@@ -58,8 +58,6 @@ header {
                     background: rgba(244, 244, 244, 1);
                 }
             }
-
-
         }
     }
 

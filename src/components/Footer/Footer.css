@@ -5,5 +5,55 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
+  padding-inline: 5%;
+  padding-block: 3%;
+  margin-top: 5em;
+}
+footer h3 {
+  margin-bottom: 1em;
+}
+footer li {
+  margin-bottom: 0.5em;
+}
+footer a {
+  color: rgb(42, 31, 32);
+  vertical-align: middle;
+}
+footer a img {
+  margin-right: 0.7em;
+  vertical-align: middle;
+}
+footer #trademark {
+  color: #646464;
+  margin-top: 5em;
+}
+footer #subscribe-button,
+footer input {
+  font-size: inherit;
+  padding: 0.6em 0.8em;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  border: none;
+  background-color: #fff;
+}
+footer #subscribe-button {
+  margin-left: 0;
+  padding-left: 1.8em;
+  padding-right: 2em;
+  border-radius: 0 0.6em 0.6em 0;
+  background-color: #fb0f40;
+  color: white;
+}
+footer #subscribe-button:active,
+footer #subscribe-button:focus {
+  outline: none;
+  color: rgb(42, 31, 32);
+}
+footer input {
+  margin-right: 0;
+  border-radius: 0.5em 0 0 0.5em;
+}
+footer input:focus {
+  outline: none;
 }
