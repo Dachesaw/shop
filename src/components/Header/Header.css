@@ -1,5 +1,4 @@
 header {
-  border: solid 1px wheat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,6 +10,8 @@ header {
       -ms-flex-pack: end;
           justify-content: end;
   gap: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 header ul {
   gap: 25px;

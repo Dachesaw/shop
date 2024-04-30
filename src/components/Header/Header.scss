@@ -1,10 +1,13 @@
 @import '../scss/variables.scss';
+@import "../scss/mixin.scss";
+
 header {
-    border: solid 1px wheat;
+    // border: solid 1px wheat;
     display: flex;
     flex-direction: row;
     justify-content: end;
     gap: 40px;
+    @include sidePadding;
 
     ul {
         gap: 25px;
@@ -45,6 +48,7 @@ header {
                     outline: none;
                     background: rgba(244, 244, 244, 1);
                 }
+
                 .button_search {
                     position: absolute;
                     right: 10px;
@@ -55,19 +59,18 @@ header {
                 }
             }
 
-            
+
         }
     }
-    .ul_2{
-     li {
-        a {
-            color: $main_text_color;
+
+    .ul_2 {
+        li {
+            a {
+                color: $main_text_color;
+            }
+
+            justify-content: center;
+            align-items: center;
         }
-        justify-content: center;
-        align-items: center;
     }
 }
-}
-
-
-

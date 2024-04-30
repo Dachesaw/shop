@@ -1,28 +1,33 @@
 @import '../scss/variables.scss';
+@import "../scss/mixin.scss";
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: end;
     gap: 7%;
+    @include sidePadding;
+
     /* border: solid 1px black; */
-    ul{
+    ul {
         display: flex;
         gap: 2em;
+
         li {
             a {
                 font-size: 14px;
                 font-weight: 400;
                 color: $main_text_color;
             }
-            
+
             a:hover {
                 color: rgb(187, 187, 187)
             }
         }
     }
+
     .ul-2 {
-        li  {
+        li {
             display: flex;
             gap: 1em;
 
@@ -32,4 +37,3 @@ nav {
         }
     }
 }
-
