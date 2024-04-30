@@ -19,9 +19,9 @@ const Header = () => {
                 </li>
             </ul>
             <ul className='ul_2'>
-                <li><img src={favorite} alt="" width={25} /><a href="">Избранное</a></li>
-                <li><img src={shop_basket} alt="" width={25}/><a href="">Корзина</a></li>
-                <li><img src={login} alt="" width={25}/><a href="">Войти</a></li>
+                <li><a href=""><img src={favorite} alt="" width={25} /></a><a href="">Избранное</a></li>
+                <li><a href=""><img src={shop_basket} alt="" width={25}/></a><a href="">Корзина</a></li>
+                <li><a href=""><img src={login} alt="" width={25}/></a><a href="">Войти</a></li>
             </ul>
             
         </header>
