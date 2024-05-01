@@ -1,4 +1,6 @@
 import './MainPage.css'
+import CategotyMain from '../CategoryMain/CategoryMain'
+
 import left from '../../assets/left-ads-button.svg'
 import right from '../../assets/right-ads-button.svg'
 import phone from '../../assets/phone.png'
@@ -11,19 +13,7 @@ import microwave from '../../assets/microwave.png'
 const MainPage = () => {
     return ( 
         <main>
-            <div className="category">
-                <ul>
-                    <li><a href="">Смартфоны</a></li>
-                    <li><a href="">Стиральные машины</a></li>
-                    <li><a href="">Пылесосы</a></li>
-                    <li><a href="">Холодильники</a></li>
-                    <li><a href="">Телевизоры</a></li>
-                    <li><a href="">Микроволновые печи</a></li>
-                    <li><a href="">Наушники</a></li>
-                    <li><a href="">Электрочайники</a></li>
-                    <li><a href="">Вытяжки</a></li>
-                </ul>
-            </div>
+            <CategotyMain/>
             <div className="ads-wrap">
                 <div className='button-wrap'>
                     <button id='buttons-ads-left' ><img src={left} alt="" /></button>
