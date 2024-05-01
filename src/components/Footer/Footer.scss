@@ -7,6 +7,11 @@ footer {
     padding-inline: 5%;
     padding-block: 3%;
     margin-top: 5em;
+    & > div {
+        max-width: 50%;
+        min-width: 20%;
+        // outline: 1px solid coral;
+    }
     h3 {
         margin-bottom: 1em;
     }
@@ -15,7 +20,6 @@ footer {
     }
     a {
         color: $main_text_color;
-        vertical-align: middle;
         img {
             margin-right: 0.7em;
             vertical-align: middle;
