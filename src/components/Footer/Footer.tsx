@@ -76,6 +76,13 @@ export default function Footer() {
                         <input type="email" placeholder="E-mail" />
                         <button id="subscribe-button">Подписаться</button>
                     </div>
+                    <p>
+                        Нажимая «Подписаться», я даю согласие на получение
+                        рекламной рассылки и обработку{" "}
+                        <a className="accent-color" href="">
+                            персональных данных
+                        </a>
+                    </p>
                 </form>
             </div>
         </footer>
