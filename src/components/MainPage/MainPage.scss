@@ -4,4 +4,35 @@
 main {
     @include sidePadding;
     margin-top: 1.3%;
+
+    .buttons-ads-left{
+
+        background: none;
+        border: none;
+        width: 3%;
+        height: 15%;
+        position: absolute;
+        top: 40%;
+        left: 0;
+    }
+
+    .buttons-ads-right {
+        background: none;
+        border: none;
+        width: 3%;
+        height: 15%;
+        position: absolute;
+        right: 0;
+        top: 40%;
+    }
+
+    .buttons-ads-right:active {
+        transition: all $transition_active;
+        scale: 1.2;
+    }
+
+    .buttons-ads-left:active {
+        transition: all $transition_active;
+        scale: 1.2;
+    }
 }

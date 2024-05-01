@@ -11,19 +11,17 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Ads = function Ads() {
   return /*#__PURE__*/React.createElement("div", {
     className: "ads-wrap"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "button-wrap"
   }, /*#__PURE__*/React.createElement("button", {
-    id: "buttons-ads-left"
+    className: "buttons-ads-left"
   }, /*#__PURE__*/React.createElement("img", {
     src: _leftAdsButton.default,
     alt: ""
   })), /*#__PURE__*/React.createElement("button", {
-    id: "buttons-ads-right"
+    className: "buttons-ads-right"
   }, /*#__PURE__*/React.createElement("img", {
     src: _rightAdsButton.default,
     alt: ""
-  }))), /*#__PURE__*/React.createElement("div", {
+  })), /*#__PURE__*/React.createElement("div", {
     className: "ads"
   }), /*#__PURE__*/React.createElement("ul", {
     className: "sitebar"

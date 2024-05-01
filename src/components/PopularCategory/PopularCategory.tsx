@@ -13,10 +13,8 @@ const PopularCategory = () => {
     return ( 
         <div className="popular-category">
                 <h2>Популярные категории</h2>
-                <div className='button-wrap'>
-                    <button id='buttons-ads-left-2' ><img src={left} alt="" /></button>
-                    <button id='buttons-ads-right-2' ><img src={right} alt="" /></button>
-                </div>
+                    <button className='buttons-ads-left' ><img src={left} alt="" /></button>
+                    <button className='buttons-ads-right' ><img src={right} alt="" /></button>
                 <div className="wrap-items-popular-cat">
                     <figure>
                         <img src={phone} alt="" />

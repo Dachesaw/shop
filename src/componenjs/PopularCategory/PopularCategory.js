@@ -17,19 +17,17 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var PopularCategory = function PopularCategory() {
   return /*#__PURE__*/React.createElement("div", {
     className: "popular-category"
-  }, /*#__PURE__*/React.createElement("h2", null, "\u041F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u044B\u0435 \u043A\u0430\u0442\u0435\u0433\u043E\u0440\u0438\u0438"), /*#__PURE__*/React.createElement("div", {
-    className: "button-wrap"
-  }, /*#__PURE__*/React.createElement("button", {
-    id: "buttons-ads-left-2"
+  }, /*#__PURE__*/React.createElement("h2", null, "\u041F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u044B\u0435 \u043A\u0430\u0442\u0435\u0433\u043E\u0440\u0438\u0438"), /*#__PURE__*/React.createElement("button", {
+    className: "buttons-ads-left"
   }, /*#__PURE__*/React.createElement("img", {
     src: _leftAdsButton.default,
     alt: ""
   })), /*#__PURE__*/React.createElement("button", {
-    id: "buttons-ads-right-2"
+    className: "buttons-ads-right"
   }, /*#__PURE__*/React.createElement("img", {
     src: _rightAdsButton.default,
     alt: ""
-  }))), /*#__PURE__*/React.createElement("div", {
+  })), /*#__PURE__*/React.createElement("div", {
     className: "wrap-items-popular-cat"
   }, /*#__PURE__*/React.createElement("figure", null, /*#__PURE__*/React.createElement("img", {
     src: _phone.default,

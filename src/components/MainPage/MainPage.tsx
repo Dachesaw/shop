@@ -17,7 +17,7 @@ import microwave from '../../assets/microwave.png'
 const MainPage = () => {
     return ( 
         <main>
-            <CategotyMain/>
+            {/* <CategotyMain/> */}
             <Ads/>
             <PopularCategory/>
         </main>
