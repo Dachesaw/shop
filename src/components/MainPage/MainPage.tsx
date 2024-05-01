@@ -1,8 +1,10 @@
 import './MainPage.css'
 import CategotyMain from '../CategoryMain/CategoryMain'
+import Ads from '../Ads/Ads'
 
 import left from '../../assets/left-ads-button.svg'
 import right from '../../assets/right-ads-button.svg'
+
 import phone from '../../assets/phone.png'
 import washing from '../../assets/washing.png'
 import vacum from '../../assets/vacum.png'
@@ -10,32 +12,13 @@ import fridge from '../../assets/fridge.png'
 import tv from '../../assets/tv.png'
 import microwave from '../../assets/microwave.png'
 
+
 const MainPage = () => {
     return ( 
         <main>
             <CategotyMain/>
-            <div className="ads-wrap">
-                <div className='button-wrap'>
-                    <button id='buttons-ads-left' ><img src={left} alt="" /></button>
-                    <button id='buttons-ads-right' ><img src={right} alt="" /></button>
-                </div>
-                        
-                        
-                <div className="ads">
-                        
-                </div>
-                <ul className='sitebar'>
-                    <li><button></button></li>
-                    <li><button></button></li>
-                    <li><button></button></li>
-                    <li><button></button></li>
-                    <li><button></button></li>
-                    <li><button></button></li>
-                    <li><button></button></li>
-                    <li><button></button></li>
-                    <li><button></button></li>
-                </ul>
-            </div>
+            <Ads/>
+            
             <div className="popular-category">
                 <h2>Популярные категории</h2>
                 <div className='button-wrap'>

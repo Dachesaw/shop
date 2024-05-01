@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 require("./MainPage.css");
 var _CategoryMain = _interopRequireDefault(require("../CategoryMain/CategoryMain"));
+var _Ads = _interopRequireDefault(require("../Ads/Ads"));
 var _leftAdsButton = _interopRequireDefault(require("../../assets/left-ads-button.svg"));
 var _rightAdsButton = _interopRequireDefault(require("../../assets/right-ads-button.svg"));
 var _phone = _interopRequireDefault(require("../../assets/phone.png"));
@@ -16,25 +17,7 @@ var _tv = _interopRequireDefault(require("../../assets/tv.png"));
 var _microwave = _interopRequireDefault(require("../../assets/microwave.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var MainPage = function MainPage() {
-  return /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement(_CategoryMain.default, null), /*#__PURE__*/React.createElement("div", {
-    className: "ads-wrap"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "button-wrap"
-  }, /*#__PURE__*/React.createElement("button", {
-    id: "buttons-ads-left"
-  }, /*#__PURE__*/React.createElement("img", {
-    src: _leftAdsButton.default,
-    alt: ""
-  })), /*#__PURE__*/React.createElement("button", {
-    id: "buttons-ads-right"
-  }, /*#__PURE__*/React.createElement("img", {
-    src: _rightAdsButton.default,
-    alt: ""
-  }))), /*#__PURE__*/React.createElement("div", {
-    className: "ads"
-  }), /*#__PURE__*/React.createElement("ul", {
-    className: "sitebar"
-  }, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("button", null)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("button", null)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("button", null)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("button", null)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("button", null)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("button", null)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("button", null)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("button", null)), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("button", null)))), /*#__PURE__*/React.createElement("div", {
+  return /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement(_CategoryMain.default, null), /*#__PURE__*/React.createElement(_Ads.default, null), /*#__PURE__*/React.createElement("div", {
     className: "popular-category"
   }, /*#__PURE__*/React.createElement("h2", null, "\u041F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u044B\u0435 \u043A\u0430\u0442\u0435\u0433\u043E\u0440\u0438\u0438"), /*#__PURE__*/React.createElement("div", {
     className: "button-wrap"
