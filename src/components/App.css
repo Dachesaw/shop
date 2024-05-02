@@ -44,3 +44,47 @@ img {
   transition: all 0.2s;
   scale: 1.2;
 }
+
+.best-sellers-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 98%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+.best-sellers-header h2 {
+  font-weight: 600;
+  font-size: 25px;
+}
+.best-sellers-header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.best-sellers-header ul li button {
+  font-size: 14px;
+  font-weight: 500;
+  background: #e8e8e8;
+  border: none;
+  border-radius: 3px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.best-sellers-header ul li button:focus {
+  background: none;
+  outline: solid 1px #e8e8e8;
+}
