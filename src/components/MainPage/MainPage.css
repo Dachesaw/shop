@@ -9,7 +9,7 @@ main .buttons-ads-left {
   width: 3%;
   height: 15%;
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 0;
 }
 main .buttons-ads-right {
@@ -19,7 +19,7 @@ main .buttons-ads-right {
   height: 15%;
   position: absolute;
   right: 0;
-  top: 40%;
+  top: 45%;
 }
 main .buttons-ads-right:active {
   -webkit-transition: all 0.2s;
