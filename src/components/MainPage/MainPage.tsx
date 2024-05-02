@@ -3,6 +3,7 @@ import CategotyMain from '../CategoryMain/CategoryMain'
 import Ads from '../Ads/Ads'
 import PopularCategory from '../PopularCategory/PopularCategory'
 import BestSellers from '../BestSellers/BestSellers'
+import SeasonalProducts from '../SeasonalProducts/SeasonalProducts'
 
 const MainPage = () => {
     return ( 
@@ -11,6 +12,7 @@ const MainPage = () => {
             <Ads/>
             <PopularCategory/>
             <BestSellers />
+            <SeasonalProducts />
         </main>
      );
 }
