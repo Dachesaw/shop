@@ -10,10 +10,10 @@ function App() {
 
   return (
     <div className='App'>
-      <NavBar />
-      <Header />
+      {/* <NavBar />
+      <Header /> */}
       <MainPage />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

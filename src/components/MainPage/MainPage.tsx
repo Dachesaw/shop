@@ -7,9 +7,9 @@ import BestSellers from '../BestSellers/BestSellers'
 const MainPage = () => {
     return ( 
         <main>
-            <CategotyMain/>
+            {/* <CategotyMain/>
             <Ads/>
-            <PopularCategory/>
+            <PopularCategory/> */}
             <BestSellers />
         </main>
      );

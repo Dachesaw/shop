@@ -1,7 +1,13 @@
+import './BestSellers.css'
+import Card from '../Card/Card';
+
 const BestSellers = () => {
     return ( 
-        <div>
-            
+        <div className='best-sellers'>
+            <Card />    
+            <Card /> 
+            <Card /> 
+            <Card />         
         </div>
      );
 }
