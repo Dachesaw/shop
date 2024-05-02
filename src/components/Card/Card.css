@@ -28,7 +28,6 @@
 }
 .card-wrap .container-img {
   height: 45%;
-  border: solid 1px rgb(35, 117, 188);
 }
 .card-wrap .container-img .progres-wrap {
   display: -webkit-box;
