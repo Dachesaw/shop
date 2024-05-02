@@ -10,8 +10,9 @@ var _Ads = _interopRequireDefault(require("../Ads/Ads"));
 var _PopularCategory = _interopRequireDefault(require("../PopularCategory/PopularCategory"));
 var _BestSellers = _interopRequireDefault(require("../BestSellers/BestSellers"));
 var _SeasonalProducts = _interopRequireDefault(require("../SeasonalProducts/SeasonalProducts"));
+var _ServicesBlock = _interopRequireDefault(require("../ServicesBlock/ServicesBlock"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var MainPage = function MainPage() {
-  return /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement(_CategoryMain.default, null), /*#__PURE__*/React.createElement(_Ads.default, null), /*#__PURE__*/React.createElement(_PopularCategory.default, null), /*#__PURE__*/React.createElement(_BestSellers.default, null), /*#__PURE__*/React.createElement(_SeasonalProducts.default, null));
+  return /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement(_CategoryMain.default, null), /*#__PURE__*/React.createElement(_Ads.default, null), /*#__PURE__*/React.createElement(_PopularCategory.default, null), /*#__PURE__*/React.createElement(_BestSellers.default, null), /*#__PURE__*/React.createElement(_SeasonalProducts.default, null), /*#__PURE__*/React.createElement(_ServicesBlock.default, null));
 };
 var _default = exports.default = MainPage;
