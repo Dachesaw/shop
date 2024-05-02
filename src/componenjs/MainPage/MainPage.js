@@ -18,6 +18,6 @@ var _tv = _interopRequireDefault(require("../../assets/tv.png"));
 var _microwave = _interopRequireDefault(require("../../assets/microwave.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var MainPage = function MainPage() {
-  return /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement(_Ads.default, null), /*#__PURE__*/React.createElement(_PopularCategory.default, null));
+  return /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement(_CategoryMain.default, null), /*#__PURE__*/React.createElement(_Ads.default, null), /*#__PURE__*/React.createElement(_PopularCategory.default, null));
 };
 var _default = exports.default = MainPage;

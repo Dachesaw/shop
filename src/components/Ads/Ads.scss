@@ -2,7 +2,7 @@
 @import '../scss/mixin.scss';
 
 .ads-wrap {
-    border: solid 1px greenyellow;
+    // border: solid 1px greenyellow;
     margin-top: 55px;
     height: 21.625em;
     position: relative;
@@ -11,7 +11,7 @@
     justify-content: center;
 
     .sitebar {
-        border: solid 1px red;
+        // border: solid 1px red;
         display: flex;
         justify-content: space-between;
         width: 350px;
@@ -36,7 +36,7 @@
         }
     }
     .ads {
-        border: solid 1px brown;
+        // border: solid 1px brown;
         justify-self: center;
         width: 97%;
         height: 20.5em;

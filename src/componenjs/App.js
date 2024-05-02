@@ -24,6 +24,6 @@ function App() {
     setCount = _useState2[1];
   return /*#__PURE__*/React.createElement("div", {
     className: "App"
-  }, /*#__PURE__*/React.createElement(_MainPage.default, null));
+  }, /*#__PURE__*/React.createElement(_NavBar.default, null), /*#__PURE__*/React.createElement(_Header.default, null), /*#__PURE__*/React.createElement(_MainPage.default, null), /*#__PURE__*/React.createElement(_Footer.default, null));
 }
 var _default = exports.default = App;
