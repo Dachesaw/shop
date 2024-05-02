@@ -12,3 +12,35 @@ img {
 .accent-color {
   color: #fb0f40;
 }
+
+.buttons-ads-left {
+  background: none;
+  border: none;
+  width: 3%;
+  height: 15%;
+  position: absolute;
+  top: 45%;
+  left: 0;
+}
+
+.buttons-ads-right {
+  background: none;
+  border: none;
+  width: 3%;
+  height: 15%;
+  position: absolute;
+  right: 0;
+  top: 45%;
+}
+
+.buttons-ads-right:active {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  scale: 1.2;
+}
+
+.buttons-ads-left:active {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  scale: 1.2;
+}
