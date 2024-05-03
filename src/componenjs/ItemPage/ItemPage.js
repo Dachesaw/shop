@@ -7,7 +7,9 @@ exports.default = ItemPage;
 var _NavBar = _interopRequireDefault(require("../NavBar/NavBar"));
 var _Header = _interopRequireDefault(require("../Header/Header"));
 var _Footer = _interopRequireDefault(require("../Footer/Footer"));
+var _AboutItem = _interopRequireDefault(require("../AboutItem/AboutItem"));
+var _CategoryMain = _interopRequireDefault(require("../CategoryMain/CategoryMain"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function ItemPage() {
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(_NavBar.default, null), /*#__PURE__*/React.createElement(_Header.default, null), /*#__PURE__*/React.createElement(_Footer.default, null));
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(_NavBar.default, null), /*#__PURE__*/React.createElement(_Header.default, null), /*#__PURE__*/React.createElement(_CategoryMain.default, null), /*#__PURE__*/React.createElement(_AboutItem.default, null), /*#__PURE__*/React.createElement(_Footer.default, null));
 }
