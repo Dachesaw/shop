@@ -1,0 +1,16 @@
+@import "../scss/variables.scss";
+@import "../scss/mixin.scss";
+
+.best-sellers-wrap {
+    position: relative;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    .card-block {
+        display: flex;
+        justify-content: space-between;
+        width: 96%;
+        align-self: center;
+    }
+}

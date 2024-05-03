@@ -1,0 +1,14 @@
+[
+    {
+        "ItemName": "Phone",
+        "Price": 21000
+    },
+    {
+        "ItemName": "TV",
+        "Price": 40000
+    },
+    {
+        "ItemName": "Pilesos",
+        "Price": 1000000
+    }
+]

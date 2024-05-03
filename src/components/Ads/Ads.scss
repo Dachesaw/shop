@@ -2,51 +2,16 @@
 @import '../scss/mixin.scss';
 
 .ads-wrap {
+    // border: solid 1px greenyellow;
     margin-top: 55px;
     height: 21.625em;
     position: relative;
+
     display: flex;
     justify-content: center;
 
-    .button-wrap {
-        display: flex;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 100%;
-        
-            button {
-                cursor: pointer;
-                position: absolute;
-                background: none;
-                border: none;
-                
-                img {
-                    border-radius: 500px;
-                }
-                img:active {
-                    transition: 100ms;
-                    scale: 1.2;
-                    border: 1px rgba;
-                }
-            }
-
-            #buttons-ads-left {
-                position: absolute;
-                bottom: 0;
-                top: 0;
-            }
-
-            #buttons-ads-right {
-                position: absolute;
-                bottom: 0;
-                top: 0;
-                right: 0;
-            }
-
-    }
-
     .sitebar {
+        // border: solid 1px red;
         display: flex;
         justify-content: space-between;
         width: 350px;
@@ -71,8 +36,9 @@
         }
     }
     .ads {
+        // border: solid 1px brown;
         justify-self: center;
-        width: 98%;
+        width: 97%;
         height: 20.5em;
         border-radius: 10px;
         background-image: url('../../assets/bg.png');

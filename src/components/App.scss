@@ -13,3 +13,68 @@ img {
 .accent-color {
     color: $accent-color;
 }
+
+.buttons-ads-left {
+    background: none;
+    border: none;
+    width: 3%;
+    height: 15%;
+    position: absolute;
+    top: 45%;
+    left: 0;
+}
+
+.buttons-ads-right {
+    background: none;
+    border: none;
+    width: 3%;
+    height: 15%;
+    position: absolute;
+    right: 0;
+    top: 45%;
+}
+
+.buttons-ads-right:active {
+    transition: all $transition_active;
+    scale: 1.2;
+}
+
+.buttons-ads-left:active {
+    transition: all $transition_active;
+    scale: 1.2;
+}
+
+.best-sellers-header {
+    // border: $border-debug;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    align-self: center;        
+    h2 {
+    font-weight: 600;
+    font-size: 25px; 
+    }
+    ul {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        li {
+            button {
+                font-size: 14px;
+                font-weight: 500;
+                background: $gray_background_color;
+                border: none;
+                border-radius: 3px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+            button:focus {
+                background: none;
+                outline: solid 1px $gray_background_color;
+            }
+        }
+    } 
+}

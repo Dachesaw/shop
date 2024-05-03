@@ -12,13 +12,14 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  gap: 25px;
 }
 .popular-category h2 {
+  margin-left: 1%;
   font-weight: 600;
   font-size: 25px;
 }
 .popular-category .wrap-items-popular-cat {
-  z-index: 2;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -30,7 +31,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 98%;
+  width: 97%;
 }
 .popular-category .wrap-items-popular-cat figure {
   display: -webkit-box;
@@ -65,39 +66,4 @@
   font-weight: 500;
   text-align: center;
   color: rgb(42, 31, 32);
-}
-
-.button-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-}
-.button-wrap button {
-  z-index: 3;
-  cursor: pointer;
-  position: absolute;
-  background: none;
-  border: none;
-}
-.button-wrap button img {
-  border-radius: 500px;
-}
-.button-wrap button img:active {
-  -webkit-transition: 100ms;
-  transition: 100ms;
-  scale: 1.2;
-  border: 1px rgba;
-}
-.button-wrap #buttons-ads-left-2 {
-  position: absolute;
-  bottom: 33%;
-}
-.button-wrap #buttons-ads-right-2 {
-  position: absolute;
-  bottom: 33%;
-  right: 0;
 }

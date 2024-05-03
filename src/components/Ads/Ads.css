@@ -9,41 +9,6 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-.ads-wrap .button-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-}
-.ads-wrap .button-wrap button {
-  cursor: pointer;
-  position: absolute;
-  background: none;
-  border: none;
-}
-.ads-wrap .button-wrap button img {
-  border-radius: 500px;
-}
-.ads-wrap .button-wrap button img:active {
-  -webkit-transition: 100ms;
-  transition: 100ms;
-  scale: 1.2;
-  border: 1px rgba;
-}
-.ads-wrap .button-wrap #buttons-ads-left {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-}
-.ads-wrap .button-wrap #buttons-ads-right {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  right: 0;
-}
 .ads-wrap .sitebar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -76,7 +41,7 @@
 .ads-wrap .ads {
   -ms-grid-column-align: center;
       justify-self: center;
-  width: 98%;
+  width: 97%;
   height: 20.5em;
   border-radius: 10px;
   background-image: url("../../assets/bg.png");
