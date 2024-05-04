@@ -1,6 +1,7 @@
 [
-    {
-        "ItemName": "Phone",
+    {   
+        "Icon": "../assets/vivo-y33s.png",
+        "ItemName": "Смартфон vivo Y33s 4/128 ГБ RU, 2 SIM, полуденный свет",
         "Price": 21000
     },
     {

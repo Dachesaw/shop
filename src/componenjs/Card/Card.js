@@ -5,12 +5,12 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 require("./Card.css");
-var _phone = _interopRequireDefault(require("../../assets/phone2.png"));
+var _vivoY33s = _interopRequireDefault(require("../../assets/vivo-y33s.png"));
 var _like = _interopRequireDefault(require("../../assets/like.svg"));
 var _raiting = _interopRequireDefault(require("../../assets/raiting.svg"));
 var _notice = _interopRequireDefault(require("../../assets/notice.svg"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var Card = function Card() {
+var Card = function Card(item) {
   return /*#__PURE__*/React.createElement("div", {
     className: "card-wrap"
   }, /*#__PURE__*/React.createElement("div", {
@@ -19,10 +19,10 @@ var Card = function Card() {
     className: "sale-element"
   }, "-39%"), /*#__PURE__*/React.createElement("span", {
     className: "sale-element"
-  }, "\u0422\u043E\u0432\u0430\u0440 \u0431\u0435\u0437 \u0440\u0435\u043A\u043B\u0430\u043C\u044B")), /*#__PURE__*/React.createElement("div", {
+  }, item.Icon)), /*#__PURE__*/React.createElement("div", {
     className: "container-img"
   }, /*#__PURE__*/React.createElement("img", {
-    src: _phone.default,
+    src: item.Icon,
     alt: ""
   }), /*#__PURE__*/React.createElement("ul", {
     className: "progres-wrap"
@@ -44,11 +44,11 @@ var Card = function Card() {
     className: "device_name-container"
   }, /*#__PURE__*/React.createElement("h3", {
     className: "device_name"
-  }, "\u0421\u043C\u0430\u0440\u0442\u0444\u043E\u043D TECNO Pova 4 LG7n 8GB/128GB (\u0441\u0435\u0440\u044B\u0439)")), /*#__PURE__*/React.createElement("div", {
+  }, item.ItemName)), /*#__PURE__*/React.createElement("div", {
     className: "price-container"
   }, /*#__PURE__*/React.createElement("span", {
     className: "price-main"
-  }, "21 770 \u20BD"), /*#__PURE__*/React.createElement("del", {
+  }, item.Price, " \u20BD"), /*#__PURE__*/React.createElement("del", {
     className: "price-sale"
   }, "50085 \u20BD")), /*#__PURE__*/React.createElement("div", {
     className: "button-bug-container"

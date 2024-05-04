@@ -8,6 +8,7 @@ require("./BestSellers.css");
 var _Card = _interopRequireDefault(require("../Card/Card"));
 var _leftAdsButton = _interopRequireDefault(require("../../assets/left-ads-button.svg"));
 var _rightAdsButton = _interopRequireDefault(require("../../assets/right-ads-button.svg"));
+var _items = _interopRequireDefault(require("../../data/items.json"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var BestSellers = function BestSellers() {
   return /*#__PURE__*/React.createElement("div", {
@@ -26,6 +27,6 @@ var BestSellers = function BestSellers() {
     alt: ""
   })), /*#__PURE__*/React.createElement("div", {
     className: "card-block"
-  }, /*#__PURE__*/React.createElement(_Card.default, null), /*#__PURE__*/React.createElement(_Card.default, null), /*#__PURE__*/React.createElement(_Card.default, null), /*#__PURE__*/React.createElement(_Card.default, null)));
+  }, /*#__PURE__*/React.createElement(_Card.default, _items.default[0]), /*#__PURE__*/React.createElement(_Card.default, _items.default[1]), /*#__PURE__*/React.createElement(_Card.default, _items.default[2]), /*#__PURE__*/React.createElement(_Card.default, _items.default[1])));
 };
 var _default = exports.default = BestSellers;

@@ -27,7 +27,20 @@
   padding: 3px;
 }
 .card-wrap .container-img {
-  height: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: solid 1px rgb(35, 117, 188);
+}
+.card-wrap .container-img img {
+  width: 80%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 .card-wrap .container-img .progres-wrap {
   display: -webkit-box;

@@ -1,5 +1,5 @@
 import './Card.css'
-import phone from '../../assets/phone2.png'
+import phone from '../../assets/vivo-y33s.png'
 import like from '../../assets/like.svg'
 import rating from '../../assets/raiting.svg'
 import notice from '../../assets/notice.svg'
@@ -7,7 +7,10 @@ import notice from '../../assets/notice.svg'
 type CardProps = {
     ItemName: string
     Price: number;
+    Icon: string;
+
 }
+
 
 
 
@@ -16,10 +19,10 @@ const Card = (item: CardProps) => {
         <div className="card-wrap">
             <div className="sale">
                 <span className='sale-element'>-39%</span>
-                <span className='sale-element'>Товар без рекламы</span>
+                <span className='sale-element'>{item.Icon}</span>
             </div>
             <div className="container-img">
-                <img src={phone} alt="" />
+                <img src={item.Icon} alt="" />
                 <ul className='progres-wrap'>
                     <li><button className='progres-btn'></button></li>
                     <li><button className='progres-btn'></button></li>
