@@ -12,7 +12,7 @@ type CardProps = {
 const Card = (item: CardProps) => {
     return (
         <div className="card-wrap">
-            <Link to={"ItemPage"}>
+            <Link to={"ItemPage"}>,
                 <div className="sale">
                     <span className="sale-element">-39%</span>
                     <span className="sale-element">Товар без рекламы</span>
