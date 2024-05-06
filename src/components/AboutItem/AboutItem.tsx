@@ -3,6 +3,8 @@ import phone2 from "../../assets/phone-images/phone-2.svg";
 import phone3 from "../../assets/phone-images/phone-3.svg";
 import phone4 from "../../assets/phone-images/phone-4.svg";
 import phone5 from "../../assets/phone-images/phone-5.svg";
+import left from '../../assets/left-ads-button.svg'
+import right from '../../assets/right-ads-button.svg'
 import "./AboutItem.css";
 
 export default function AboutItem() {
@@ -33,6 +35,8 @@ export default function AboutItem() {
                         <img src={phone1} alt="" id="main-item-image" />
                     </div>
                     <div className="additional-image-scroll">
+                        <button className='buttons-ads-left' ><img src={left} alt="" /></button>
+                        <button className='buttons-ads-right' ><img src={right} alt="" /></button>
                         <img
                             src={phone1}
                             alt=""

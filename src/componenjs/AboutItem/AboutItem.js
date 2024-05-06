@@ -9,6 +9,8 @@ var _phone2 = _interopRequireDefault(require("../../assets/phone-images/phone-2.
 var _phone3 = _interopRequireDefault(require("../../assets/phone-images/phone-3.svg"));
 var _phone4 = _interopRequireDefault(require("../../assets/phone-images/phone-4.svg"));
 var _phone5 = _interopRequireDefault(require("../../assets/phone-images/phone-5.svg"));
+var _leftAdsButton = _interopRequireDefault(require("../../assets/left-ads-button.svg"));
+var _rightAdsButton = _interopRequireDefault(require("../../assets/right-ads-button.svg"));
 require("./AboutItem.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function AboutItem() {
@@ -37,7 +39,17 @@ function AboutItem() {
     id: "main-item-image"
   })), /*#__PURE__*/React.createElement("div", {
     className: "additional-image-scroll"
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "buttons-ads-left"
   }, /*#__PURE__*/React.createElement("img", {
+    src: _leftAdsButton.default,
+    alt: ""
+  })), /*#__PURE__*/React.createElement("button", {
+    className: "buttons-ads-right"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: _rightAdsButton.default,
+    alt: ""
+  })), /*#__PURE__*/React.createElement("img", {
     src: _phone.default,
     alt: "",
     className: "additional-item-image chosen-item-image",
