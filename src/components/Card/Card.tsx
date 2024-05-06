@@ -1,4 +1,5 @@
 import './Card.css'
+import { Link } from 'react-router-dom'
 import phone from '../../assets/phone2.png'
 import like from '../../assets/like.svg'
 import rating from '../../assets/raiting.svg'
