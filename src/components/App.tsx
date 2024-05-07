@@ -14,10 +14,10 @@ const router = createBrowserRouter([
         path: "/",
         element: (
             <div className="App">
-                {/* <NavBar />
-                <Header /> */}
+                <NavBar />
+                <Header />
                 <MainPage />
-                {/* <Footer /> */}
+                <Footer />
             </div>
         ),
         errorElement: <ErrorPage />,

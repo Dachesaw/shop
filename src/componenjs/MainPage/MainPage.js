@@ -13,6 +13,6 @@ var _SeasonalProducts = _interopRequireDefault(require("../SeasonalProducts/Seas
 var _ServicesBlock = _interopRequireDefault(require("../ServicesBlock/ServicesBlock"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var MainPage = function MainPage() {
-  return /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement(_BestSellers.default, null));
+  return /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement(_CategoryMain.default, null), /*#__PURE__*/React.createElement(_Ads.default, null), /*#__PURE__*/React.createElement(_PopularCategory.default, null), /*#__PURE__*/React.createElement(_BestSellers.default, null), /*#__PURE__*/React.createElement(_SeasonalProducts.default, null), /*#__PURE__*/React.createElement(_ServicesBlock.default, null));
 };
 var _default = exports.default = MainPage;

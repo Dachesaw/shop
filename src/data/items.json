@@ -26,5 +26,63 @@
         "Price": 35859,
         "Rating": 4,
         "Sale": 72
+    },
+    {
+        "image_src": "/src/assets/wash2.png",
+        "ItemName": "Робот - мойщик окон Даджет W100",
+        "Price": 8720,
+        "Rating": 4.1,
+        "Sale": 64
+    },
+    {
+        "image_src": "/src/assets/wash-4.png",
+        "ItemName": "Робот-мойщик окон с распылителем DOMASHI Ley",
+        "Price": 226,
+        "Rating": 2.5,
+        "Sale": 25
+    },
+    {
+        "image_src": "/src/assets/wash3.png",
+        "ItemName": "HEPA фильтр для вертикального пылесоса Deerma DX700, DX700S",
+        "Price": 226,
+        "Rating": 3.5,
+        "Sale": 21
+    },
+    {
+        "image_src": "/src/assets/wash1.png",
+        "ItemName": "WV 2 Premium Black Edition",
+        "Price": 5632,
+        "Rating": 3.5,
+        "Sale": 21
+    },
+
+    {
+        "image_src": "/src/assets/win2.png",
+        "ItemName": "Valencia VC102RDS - гитара классическая 1/2",
+        "Price": 8331,
+        "Rating": 4.1,
+        "Sale": 64
+    },
+    {
+        "image_src": "/src/assets/win1.png",
+        "ItemName": "BEHRINGER OD300 педаль эффектов овердрайв / дисторшн, 2-режима",
+        "Price": 527,
+        "Rating": 2.5,
+        "Sale": 25
+    },
+    {
+        "image_src": "/src/assets/win4.png",
+        "ItemName": "Гитарный комбоусилитель ROCKET GA-10 мощность 10 ВТ",
+        "Price": 226,
+        "Rating": 3.5,
+        "Sale": 21
+    },
+    {
+        "image_src": "/src/assets/win34.png",
+        "ItemName": "HEPA фильтр для вертикального пылесоса Deerma DX700, DX700S",
+        "Price": 3950,
+        "Rating": 3.5,
+        "Sale": 21
     }
+    
 ]

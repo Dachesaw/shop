@@ -9,12 +9,12 @@ import ServicesBlock from "../ServicesBlock/ServicesBlock";
 const MainPage = () => {
     return (
         <main>
-            {/* <CategotyMain />
+            <CategotyMain />
             <Ads />
-            <PopularCategory /> */}
+            <PopularCategory />
             <BestSellers />
-            {/* <SeasonalProducts />
-            <ServicesBlock /> */}
+            <SeasonalProducts />
+            <ServicesBlock />
         </main>
     );
 };

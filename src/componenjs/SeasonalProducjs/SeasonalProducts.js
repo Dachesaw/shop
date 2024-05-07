@@ -5,9 +5,10 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 require("./SeasonalProducts.css");
-var _Card = _interopRequireDefault(require("../Card2/Card2"));
+var _Card = _interopRequireDefault(require("../Card/Card"));
 var _leftAdsButton = _interopRequireDefault(require("../../assets/left-ads-button.svg"));
 var _rightAdsButton = _interopRequireDefault(require("../../assets/right-ads-button.svg"));
+var _items = _interopRequireDefault(require("../../data/items.json"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var SeasonalProducts = function SeasonalProducts() {
   return /*#__PURE__*/React.createElement("div", {
@@ -26,6 +27,6 @@ var SeasonalProducts = function SeasonalProducts() {
     alt: ""
   })), /*#__PURE__*/React.createElement("div", {
     className: "card-block"
-  }, /*#__PURE__*/React.createElement(_Card.default, null), /*#__PURE__*/React.createElement(_Card.default, null), /*#__PURE__*/React.createElement(_Card.default, null), /*#__PURE__*/React.createElement(_Card.default, null)));
+  }, /*#__PURE__*/React.createElement(_Card.default, _items.default[4]), /*#__PURE__*/React.createElement(_Card.default, _items.default[5]), /*#__PURE__*/React.createElement(_Card.default, _items.default[6]), /*#__PURE__*/React.createElement(_Card.default, _items.default[7])));
 };
 var _default = exports.default = SeasonalProducts;

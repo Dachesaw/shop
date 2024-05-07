@@ -18,7 +18,7 @@ var router = (0, _reactRouterDom.createBrowserRouter)([{
   path: "/",
   element: /*#__PURE__*/React.createElement("div", {
     className: "App"
-  }, /*#__PURE__*/React.createElement(_MainPage.default, null)),
+  }, /*#__PURE__*/React.createElement(_NavBar.default, null), /*#__PURE__*/React.createElement(_Header.default, null), /*#__PURE__*/React.createElement(_MainPage.default, null), /*#__PURE__*/React.createElement(_Footer.default, null)),
   errorElement: /*#__PURE__*/React.createElement(_ErrorPage.default, null)
 }, {
   path: "/ItemPage",
