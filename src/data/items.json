@@ -1,15 +1,88 @@
 [
     {   
-        "Icon": "../assets/vivo-y33s.png",
+        "image_src": "/src/assets/vivo-y33s.png",
         "ItemName": "Смартфон vivo Y33s 4/128 ГБ RU, 2 SIM, полуденный свет",
-        "Price": 21000
+        "Price": 21000,
+        "Rating": 4.8,
+        "Sale": 10
     },
     {
-        "ItemName": "TV",
-        "Price": 40000
+        "image_src": "/src/assets/vivo-y27s.png",
+        "ItemName": "Смартфон vivo Y27s 8/256 ГБ Global, 2 nano SIM, зеленая мята",
+        "Price": 11684,
+        "Rating": 4.2,
+        "Sale": 20
     },
     {
-        "ItemName": "Pilesos",
-        "Price": 1000000
+        "image_src": "/src/assets/iphone-15.png",
+        "ItemName": "Смартфон Apple iPhone 15 128 ГБ, Dual nano SIM, черный",
+        "Price": 71937,
+        "Rating": 5,
+        "Sale": 50
+    },
+    {
+        "image_src": "/src/assets/pixel-7a.png",
+        "ItemName": "Смартфон Google Pixel 7A 8/128 ГБ JP, Dual: nano SIM",
+        "Price": 35859,
+        "Rating": 4,
+        "Sale": 72
+    },
+    {
+        "image_src": "/src/assets/wash2.png",
+        "ItemName": "Робот - мойщик окон Даджет W100",
+        "Price": 8720,
+        "Rating": 4.1,
+        "Sale": 64
+    },
+    {
+        "image_src": "/src/assets/wash-4.png",
+        "ItemName": "Робот-мойщик окон с распылителем DOMASHI Ley",
+        "Price": 226,
+        "Rating": 2.5,
+        "Sale": 25
+    },
+    {
+        "image_src": "/src/assets/wash3.png",
+        "ItemName": "HEPA фильтр для вертикального пылесоса Deerma DX700, DX700S",
+        "Price": 226,
+        "Rating": 3.5,
+        "Sale": 21
+    },
+    {
+        "image_src": "/src/assets/wash1.png",
+        "ItemName": "WV 2 Premium Black Edition",
+        "Price": 5632,
+        "Rating": 3.5,
+        "Sale": 21
+    },
+
+    {
+        "image_src": "/src/assets/win2.png",
+        "ItemName": "Valencia VC102RDS - гитара классическая 1/2",
+        "Price": 8331,
+        "Rating": 4.1,
+        "Sale": 64
+    },
+    {
+        "image_src": "/src/assets/win1.png",
+        "ItemName": "BEHRINGER OD300 педаль эффектов овердрайв / дисторшн, 2-режима",
+        "Price": 527,
+        "Rating": 2.5,
+        "Sale": 25
+    },
+    {
+        "image_src": "/src/assets/win4.png",
+        "ItemName": "Гитарный комбоусилитель ROCKET GA-10 мощность 10 ВТ",
+        "Price": 226,
+        "Rating": 3.5,
+        "Sale": 21
+    },
+    {
+        "image_src": "/src/assets/win34.png",
+        "ItemName": "HEPA фильтр для вертикального пылесоса Deerma DX700, DX700S",
+        "Price": 3950,
+        "Rating": 3.5,
+        "Sale": 21
     }
+    
 ]

@@ -5,9 +5,10 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 require("./ServicesBlock.css");
-var _Card = _interopRequireDefault(require("../Card3/Card3"));
+var _Card = _interopRequireDefault(require("../Card/Card"));
 var _leftAdsButton = _interopRequireDefault(require("../../assets/left-ads-button.svg"));
 var _rightAdsButton = _interopRequireDefault(require("../../assets/right-ads-button.svg"));
+var _items = _interopRequireDefault(require("../../data/items.json"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var ServicesBlock = function ServicesBlock() {
   return /*#__PURE__*/React.createElement("div", {
@@ -26,6 +27,6 @@ var ServicesBlock = function ServicesBlock() {
     alt: ""
   })), /*#__PURE__*/React.createElement("div", {
     className: "card-block"
-  }, /*#__PURE__*/React.createElement(_Card.default, null), /*#__PURE__*/React.createElement(_Card.default, null), /*#__PURE__*/React.createElement(_Card.default, null), /*#__PURE__*/React.createElement(_Card.default, null)));
+  }, /*#__PURE__*/React.createElement(_Card.default, _items.default[8]), /*#__PURE__*/React.createElement(_Card.default, _items.default[9]), /*#__PURE__*/React.createElement(_Card.default, _items.default[10]), /*#__PURE__*/React.createElement(_Card.default, _items.default[11])));
 };
 var _default = exports.default = ServicesBlock;

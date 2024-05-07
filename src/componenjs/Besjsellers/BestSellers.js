@@ -27,6 +27,6 @@ var BestSellers = function BestSellers() {
     alt: ""
   })), /*#__PURE__*/React.createElement("div", {
     className: "card-block"
-  }, /*#__PURE__*/React.createElement(_Card.default, _items.default[0]), /*#__PURE__*/React.createElement(_Card.default, _items.default[1]), /*#__PURE__*/React.createElement(_Card.default, _items.default[2]), /*#__PURE__*/React.createElement(_Card.default, _items.default[1])));
+  }, /*#__PURE__*/React.createElement(_Card.default, _items.default[0]), /*#__PURE__*/React.createElement(_Card.default, _items.default[1]), /*#__PURE__*/React.createElement(_Card.default, _items.default[2]), /*#__PURE__*/React.createElement(_Card.default, _items.default[3])));
 };
 var _default = exports.default = BestSellers;
