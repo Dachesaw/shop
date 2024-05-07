@@ -44,7 +44,7 @@ const BestSellers = () => {
                 <Card {...Items[0]} />
                 <Card {...Items[1]} />
                 <Card {...Items[2]} />
-                <Card {...Items[1]} />
+                <Card {...Items[3]} />
             </div>
         </div>
     );

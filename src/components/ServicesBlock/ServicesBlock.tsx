@@ -1,7 +1,9 @@
 import './ServicesBlock.css'
-import Card3 from '../Card3/Card3'
+import Card from '../Card/Card'
 import left from '../../assets/left-ads-button.svg'
 import right from '../../assets/right-ads-button.svg'
+
+import Items from "../../data/items.json";
 
 const ServicesBlock = () => {
     return ( 
@@ -19,10 +21,10 @@ const ServicesBlock = () => {
                         <button className='buttons-ads-left' ><img src={left} alt="" /></button>
                         <button className='buttons-ads-right' ><img src={right} alt="" /></button>
             <div className='card-block'>
-                <Card3 />    
-                <Card3 /> 
-                <Card3 /> 
-                <Card3 />
+                <Card {...Items[8]}/>    
+                <Card {...Items[9]}/> 
+                <Card {...Items[10]}/> 
+                <Card {...Items[11]}/>
             </div>         
         </div>
     );

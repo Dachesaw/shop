@@ -1,7 +1,9 @@
 import './SeasonalProducts.css'
-import Card2 from '../Card2/Card2'
+import Card from '../Card/Card'
 import left from '../../assets/left-ads-button.svg'
 import right from '../../assets/right-ads-button.svg'
+
+import Items from "../../data/items.json";
 
 const SeasonalProducts = () => {
     return ( 
@@ -20,10 +22,10 @@ const SeasonalProducts = () => {
                         <button className='buttons-ads-left' ><img src={left} alt="" /></button>
                         <button className='buttons-ads-right' ><img src={right} alt="" /></button>
             <div className='card-block'>
-                <Card2 />    
-                <Card2 /> 
-                <Card2 /> 
-                <Card2 />
+                <Card {...Items[4]}/>    
+                <Card {...Items[5]}/> 
+                <Card {...Items[6]}/> 
+                <Card {...Items[7]}/>
             </div>         
         </div>
     );
