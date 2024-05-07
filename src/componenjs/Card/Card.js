@@ -5,7 +5,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 require("./Card.css");
-var _vivoY33s = _interopRequireDefault(require("../../assets/vivo-y33s.png"));
+var _reactRouterDom = require("react-router-dom");
+var _phone = _interopRequireDefault(require("../../assets/phone2.png"));
 var _like = _interopRequireDefault(require("../../assets/like.svg"));
 var _raiting = _interopRequireDefault(require("../../assets/raiting.svg"));
 var _notice = _interopRequireDefault(require("../../assets/notice.svg"));
@@ -13,16 +14,18 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Card = function Card(item) {
   return /*#__PURE__*/React.createElement("div", {
     className: "card-wrap"
+  }, /*#__PURE__*/React.createElement(_reactRouterDom.Link, {
+    to: "ItemPage"
   }, /*#__PURE__*/React.createElement("div", {
     className: "sale"
   }, /*#__PURE__*/React.createElement("span", {
     className: "sale-element"
   }, "-39%"), /*#__PURE__*/React.createElement("span", {
     className: "sale-element"
-  }, item.Icon)), /*#__PURE__*/React.createElement("div", {
+  }, "\u0422\u043E\u0432\u0430\u0440 \u0431\u0435\u0437 \u0440\u0435\u043A\u043B\u0430\u043C\u044B")), /*#__PURE__*/React.createElement("div", {
     className: "container-img"
   }, /*#__PURE__*/React.createElement("img", {
-    src: item.Icon,
+    src: _phone.default,
     alt: ""
   }), /*#__PURE__*/React.createElement("ul", {
     className: "progres-wrap"
@@ -74,6 +77,6 @@ var Card = function Card(item) {
     id: "notice",
     src: _notice.default,
     alt: ""
-  }))));
+  })))));
 };
 var _default = exports.default = Card;
