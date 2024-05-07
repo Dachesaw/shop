@@ -1,0 +1,22 @@
+.category {
+  margin-bottom: 1.3%;
+}
+.category ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.category ul li a {
+  color: rgb(42, 31, 32);
+  font-weight: 500;
+  font-size: 15px;
+}
+.category ul li a:hover {
+  color: rgb(159, 159, 135);
+}
+.category ul li a:active {
+  color: aliceblue;
+}

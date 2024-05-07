@@ -1,0 +1,7 @@
+@import '../scss/variables.scss';
+@import '../scss/mixin.scss';
+
+main {
+    @include sidePadding;
+    margin-top: 1.3%;
+}

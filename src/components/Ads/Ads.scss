@@ -1,0 +1,47 @@
+@import '../scss/variables.scss';
+@import '../scss/mixin.scss';
+
+.ads-wrap {
+    // border: solid 1px greenyellow;
+    margin-top: 55px;
+    height: 21.625em;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    .sitebar {
+        // border: solid 1px red;
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        li {
+            display: flex;
+            button {
+                cursor: pointer;
+                border: none;
+                background: $gray_background_color;
+                width: 30px;
+                height: 3px;
+                
+            }
+            button:focus {
+                background: $accent-color;
+            }
+        }
+    }
+    .ads {
+        // border: solid 1px brown;
+        justify-self: center;
+        width: 97%;
+        height: 20.5em;
+        border-radius: 10px;
+        background-image: url('../../assets/bg.png');
+        background-size:cover;
+    }
+}

@@ -4,27 +4,15 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
+require("./MainPage.css");
+var _CategoryMain = _interopRequireDefault(require("../CategoryMain/CategoryMain"));
+var _Ads = _interopRequireDefault(require("../Ads/Ads"));
+var _PopularCategory = _interopRequireDefault(require("../PopularCategory/PopularCategory"));
+var _BestSellers = _interopRequireDefault(require("../BestSellers/BestSellers"));
+var _SeasonalProducts = _interopRequireDefault(require("../SeasonalProducts/SeasonalProducts"));
+var _ServicesBlock = _interopRequireDefault(require("../ServicesBlock/ServicesBlock"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var MainPage = function MainPage() {
-  return /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement("div", {
-    className: "category"
-  }, /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: ""
-  }, "\u0421\u043C\u0430\u0440\u0442\u0444\u043E\u043D\u044B")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: ""
-  }, "\u0421\u0442\u0438\u0440\u0430\u043B\u044C\u043D\u044B\u0435 \u043C\u0430\u0448\u0438\u043D\u044B")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: ""
-  }, "\u041F\u044B\u043B\u0435\u0441\u043E\u0441\u044B")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: ""
-  }, "\u0425\u043E\u043B\u043E\u0434\u0438\u043B\u044C\u043D\u0438\u043A\u0438")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: ""
-  }, "\u0422\u0435\u043B\u0435\u0432\u0438\u0437\u043E\u0440\u044B")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: ""
-  }, "\u041C\u0438\u043A\u0440\u043E\u0432\u043E\u043B\u043D\u043E\u0432\u044B\u0435 \u043F\u0435\u0447\u0438")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: ""
-  }, "\u041D\u0430\u0443\u0448\u043D\u0438\u043A\u0438")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: ""
-  }, "\u042D\u043B\u0435\u043A\u0442\u0440\u043E\u0447\u0430\u0439\u043D\u0438\u043A\u0438")), /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("a", {
-    href: ""
-  }, "\u0412\u044B\u0442\u044F\u0436\u043A\u0438")))));
+  return /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement(_CategoryMain.default, null), /*#__PURE__*/React.createElement(_Ads.default, null), /*#__PURE__*/React.createElement(_PopularCategory.default, null), /*#__PURE__*/React.createElement(_BestSellers.default, null), /*#__PURE__*/React.createElement(_SeasonalProducts.default, null), /*#__PURE__*/React.createElement(_ServicesBlock.default, null));
 };
 var _default = exports.default = MainPage;
