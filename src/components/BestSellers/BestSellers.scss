@@ -7,10 +7,15 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
+    // border: $border-debug;
+
     .card-block {
         display: flex;
-        justify-content: space-between;
-        width: 96%;
-        align-self: center;
+        flex-direction: row;
+        justify-content: space-around;
+        // border: $border-debug;
+        align-items: center;
+        // width: 96%;
+        // align-self: center;
     }
 }
