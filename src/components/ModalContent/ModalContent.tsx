@@ -1,3 +1,5 @@
+import './ModalContent.css'
+
 const ModalContent = () => {
     return ( 
     <div className="modalcontent-wrap">
