@@ -2,7 +2,60 @@
 @import "../scss/mixin.scss";
 
 .modalcontent-wrap {
+    z-index: 1;
+    display: flex;
+    position: fixed;
     width: 100%;
     height: 100%;
-    border: $border-debug;
+    justify-content: center;
+    align-items: center;
+    // border: $border-debug;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    .modalcontent {
+        background-color: $white_color;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5%;
+        border-radius: 10px;
+        gap: 1em;
+        // border: $border-debug;
+        h3 {
+            // font-size: 18px;
+        }
+        p {
+            font-size: 13px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            width: 100%;
+            // border: $border-debug;
+            .form {
+                padding-top: 2.9%;
+                padding-bottom: 2.9%;
+                padding-left: 4%;
+                border-radius: 5px;
+                outline: solid 1px $gray_price;
+                border: none;
+                // width: 100%;
+            }
+            .submit-button {
+                cursor: pointer;
+                align-self: center;
+                padding-top: 2.9%;
+                padding-bottom: 2.9%;
+                border-radius: 10px;
+                width: 50%;
+                color: $white_color;
+                background: $accent-color;
+                border: none;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
 }
