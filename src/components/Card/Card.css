@@ -34,7 +34,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: solid 1px rgb(35, 117, 188);
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -49,7 +48,6 @@
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  border: solid 1px rgb(35, 117, 188);
 }
 .card-wrap .container-img a .item-page-class {
   max-height: 250px;
