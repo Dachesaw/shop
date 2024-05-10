@@ -7,8 +7,8 @@ const ModalContent = () => {
             <h3>Вход или регистрация</h3>
             <p>Введите номер телефона. Мы отправим вам код в СМС.</p>
             <form action="number">
-                <input type="tel" />
-                <input type="submit" value="Получить код" />
+                <input className='form' type="tel" />
+                <input className='submit-button' type="submit" value="Получить код" />
             </form>
         </div>
     </div>
