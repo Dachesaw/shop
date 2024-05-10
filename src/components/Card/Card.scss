@@ -140,20 +140,20 @@
                 padding: 1%;
             }
         }
-            .container-img {
+        .container-img {
+            display: flex;
+            flex-direction: column;
+            // border: $border-debug;
+            width: 100%;
+            align-self: center;
+            a {
                 display: flex;
-                flex-direction: column;
-                // border: $border-debug;
-                a {
-                    align-self: center;
-                    width: 65%;
-                    display: flex;
-                    // border: $border-debug;
-                    justify-content: center;
-                    img {
-                        // max-width: 200px;
-                        // max-height: 200px;
-                        }
+                justify-content: center;
+                align-self: center;
+                .item-page-class {
+                    // max-width: 200px;
+                    max-height: 250px;
+                    }
                 }
                 .progres-wrap {
                     display: flex;

@@ -175,18 +175,24 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .card-wrap .container-img a {
+    width: 100%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    width: 65%;
+  }
+  .card-wrap .container-img a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .card-wrap .container-img a .item-page-class {
+    max-height: 250px;
   }
   .card-wrap .container-img .progres-wrap {
     display: -webkit-box;
