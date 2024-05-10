@@ -23,16 +23,19 @@
         .container-img {
             display: flex;
             flex-direction: column;
-            // border: $border-debug;
+            border: $border-debug;
+            align-self: center;
             a {
-                align-self: center;
-                width: 65%;
                 display: flex;
-                // border: $border-debug;
                 justify-content: center;
-                img {
+                align-self: center;
+                border: $border-debug;
+
+                // width: 65%;
+                // border: $border-debug;
+                .item-page-class {
                     // max-width: 200px;
-                    // max-height: 200px;
+                    max-height: 250px;
                     }
             }
             .progres-wrap {
