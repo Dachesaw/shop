@@ -4,6 +4,7 @@ const ModalContent = () => {
     return ( 
     <div className="modalcontent-wrap">
         <div className="modalcontent">
+            <button className='close-modalcontent'>x</button>
             <h3>Вход или регистрация</h3>
             <p>Введите номер телефона. Мы отправим вам код в СМС.</p>
             <form action="number">
