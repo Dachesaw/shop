@@ -4,14 +4,18 @@ import login from "../../assets/login.svg";
 import shop_basket from "../../assets/shop_basket.svg";
 import search from "../../assets/search.svg";
 
+import { useState } from "react";
+import ModalContent from "../ModalContent/ModalContent";
 import "./Header.css";
 
 const Header = () => {
+    const [modalActive, setModalActive] = useState(false)
     return (
         <header>
+            
             <ul>
                 <li>
-                    <button className="burger_button"><img src={burger} />КАТАЛОГ</button>
+                    <button className="burger_button btn-click"><img src={burger} />КАТАЛОГ</button>
                 </li>
                 <li>
                     <form>
@@ -21,11 +25,22 @@ const Header = () => {
                 </li>
             </ul>
             <ul className='ul_2'>
-                <li><a href=""><img src={favorite} alt="" width={25} /></a><a href="">Избранное</a></li>
-                <li><a href=""><img src={shop_basket} alt="" width={25}/></a><a href="">Корзина</a></li>
-                <li><a href=""><img src={login} alt="" width={25}/></a><a href="">Войти</a></li>
+                <li>
+                    <button className="btn-click"><img src={favorite} alt="" width={25} /></button>
+                    <button className="btn-click">Избранное</button>
+                    </li>
+                <li>
+                    <button className="btn-click"><img src={shop_basket} alt="" width={25}/></button>
+                    <button className="btn-click">Корзина</button>
+                </li>
+                <li>
+                    <button className="open-btn accent-color btn-click" onClick={() => setModalActive(true)}><img src={login} alt="" width={25}/></button>
+                    <button className="open-btn accent-color btn-click" onClick={() => setModalActive(true)}>Войти</button>
+                </li>
             </ul>
+            <ModalContent active={modalActive} setActive={setModalActive}/>
         </header>
+
     );
 };
 

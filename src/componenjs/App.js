@@ -12,6 +12,7 @@ var _Header = _interopRequireDefault(require("./Header/Header"));
 var _MainPage = _interopRequireDefault(require("./MainPage/MainPage"));
 var _ItemPage = _interopRequireDefault(require("./ItemPage/ItemPage"));
 var _ErrorPage = _interopRequireDefault(require("./ErrorPage/ErrorPage"));
+var _ModalContent = _interopRequireDefault(require("./ModalContent/ModalContent"));
 var _reactRouterDom = require("react-router-dom");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var router = (0, _reactRouterDom.createBrowserRouter)([{

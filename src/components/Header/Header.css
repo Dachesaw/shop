@@ -85,6 +85,9 @@ header .ul_2 li {
       -ms-flex-align: center;
           align-items: center;
 }
-header .ul_2 li a {
+header .ul_2 li button {
+  cursor: pointer;
+  background: none;
+  border: none;
   color: rgb(42, 31, 32);
 }

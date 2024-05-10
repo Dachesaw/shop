@@ -78,3 +78,14 @@ img {
         }
     } 
 }
+
+.btn-click:active {
+    transform: scale(1.1);
+    transition: $transition_hover;
+}
+
+.btn-click:hover {
+    // outline: solid 2px rgb(86, 17, 165);
+    // transform: scale(0.9);
+    transition: 0.1s;
+}

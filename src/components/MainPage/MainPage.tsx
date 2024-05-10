@@ -5,6 +5,8 @@ import PopularCategory from "../PopularCategory/PopularCategory";
 import BestSellers from "../BestSellers/BestSellers";
 import SeasonalProducts from "../SeasonalProducts/SeasonalProducts";
 import ServicesBlock from "../ServicesBlock/ServicesBlock";
+import ModalContent from "../ModalContent/ModalContent";
+
 
 const MainPage = () => {
     return (

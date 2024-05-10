@@ -1,10 +1,10 @@
 import './ModalContent.css'
 
-const ModalContent = () => {
+const ModalContent = ({active, setActive}) => {
     return ( 
-    <div className="modalcontent-wrap">
-        <div className="modalcontent">
-            <button className='close-modalcontent'>x</button>
+    <div className={active ? "modalcontent-wrap active" : "modalcontent-wrap"} onClick={() => setActive(false)}>
+        <div className={active ? "modalcontent active" : "modalcontent"} onClick={e => e.stopPropagation()}>
+            <button className='close-modalcontent' onClick={() => setActive(false)}>x</button>
             <h3>Вход или регистрация</h3>
             <p>Введите номер телефона. Мы отправим вам код в СМС.</p>
             <form action="number">

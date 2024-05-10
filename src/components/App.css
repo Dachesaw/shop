@@ -34,14 +34,14 @@ img {
 }
 
 .buttons-ads-right:active {
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  -webkit-transition: all 0.5s all;
+  transition: all 0.5s all;
   scale: 1.2;
 }
 
 .buttons-ads-left:active {
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
+  -webkit-transition: all 0.5s all;
+  transition: all 0.5s all;
   scale: 1.2;
 }
 
@@ -87,4 +87,16 @@ img {
 .best-sellers-header ul li button:focus {
   background: none;
   outline: solid 1px #e8e8e8;
+}
+
+.btn-click:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.btn-click:hover {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
