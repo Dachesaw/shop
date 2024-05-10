@@ -29,7 +29,7 @@
     },
     {
         "image_src": "/src/assets/wash2.png",
-        "ItemName": "Робот - мойщик окон Даджет W100",
+        "ItemName": "Робот - мойщик окон Даджет W100 Белый цвет Берюза",
         "Price": 8720,
         "Rating": 4.1,
         "Sale": 64
@@ -50,7 +50,7 @@
     },
     {
         "image_src": "/src/assets/wash1.png",
-        "ItemName": "WV 2 Premium Black Edition",
+        "ItemName": "WV 2 Premium Black Edition Black cock Edition Minet Tangens",
         "Price": 5632,
         "Rating": 3.5,
         "Sale": 21
@@ -58,7 +58,7 @@
 
     {
         "image_src": "/src/assets/win2.png",
-        "ItemName": "Valencia VC102RDS - гитара классическая 1/2",
+        "ItemName": "Valencia VC102RDS - гитара классическая 1/2 с раздвижным телекастером",
         "Price": 8331,
         "Rating": 4.1,
         "Sale": 64
