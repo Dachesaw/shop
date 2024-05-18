@@ -40,6 +40,12 @@ export default function AboutItem() {
                         <img src={phone1} alt="" id="main-item-image" />
                     </div>
                     <div className="additional-image-scroll">
+                        <button className="buttons-ads-left">
+                            <img src={left} alt="" />
+                        </button>
+                        <button className="buttons-ads-right">
+                            <img src={right} alt="" />
+                        </button>
                         <img
                             src={phone1}
                             alt=""
